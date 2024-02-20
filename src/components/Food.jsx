@@ -73,20 +73,20 @@ function filterPrice(price){
             <div>
                 <p className='font-bold text-gray-700'>Filter Type</p>
                 <div className='flex justify-between flex-wrap py-2'>
-                    <button onClick={()=>{all()}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>All</button>
-                    <button onClick={()=>{filters('burger')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Burgers</button>
-                    <button onClick={()=>{filters('pizza')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Pizza</button>
-                    <button onClick={()=>{filters('salad')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Salads</button>
-                    <button onClick={()=>{filters('chicken')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Chicken</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{all()}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>All</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filters('burger')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Burgers</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filters('pizza')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Pizza</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filters('salad')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Salads</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filters('chicken')}} className='ml-2 mt-2 sm:mt-0 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>Chicken</button>
                 </div>
             </div>
             <div>
                 <p className='font-bold text-gray-700'>Filter Price</p>
                 <div className='flex justify-between flex-wrap py-2'>
-                    <button onClick={()=>{filtersPrice('$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$</button>
-                    <button onClick={()=>{filtersPrice('$$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$$</button>
-                    <button onClick={()=>{filtersPrice('$$$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$$$</button>
-                    <button onClick={()=>{filtersPrice('$$$$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$$$$</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filtersPrice('$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filtersPrice('$$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$$</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filtersPrice('$$$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$$$</button>
+                    <button data-aos="fade-up" data-aos-offset="0" onClick={()=>{filtersPrice('$$$$')}} className='ml-2 bg-white border-orange-500 text-orange-500 hover:text-white hover:bg-orange-500'>$$$$</button>
                 </div>
             </div>
         </div>
